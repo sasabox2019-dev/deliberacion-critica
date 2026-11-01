@@ -76,6 +76,8 @@ Cada riesgo catastrófico encontrado en el debate se convierte en una puerta ver
 | [Tienda de Yécora (270 hab.)](casos/02-tienda-yecora.md) | «Un súper con nóminas no cierra aquí» → piloto de medición ≤9.000 € con stop-loss y salidas escritas | La honestidad numérica vale más que la optimista; piloto que sabe morir |
 | [Guardería con cámaras (Vitoria-Gasteiz)](casos/03-guarderia-camaras-vitoria.md) | El directo para padres muere por mecanismo (art. 22 LOPDGDD); el proyecto sobrevive; ambas plataformas convergen en el mismo terminal por caminos distintos | Validación cruzada de la arquitectura en chat lineal y agentes |
 
+*Los casos son deliberaciones ilustrativas sobre promotores ficticios; los datos citados eran reales pero caducan — re-verifica antes de decidir.*
+
 ## Instalar la skill
 
 La carpeta [`skill/deliberacion-critica/`](skill/deliberacion-critica/) es una skill portable (formato agentskills.io — compatible con Claude Code, ZCode y Chatbox). Cópiala a tu directorio de skills:
@@ -90,10 +92,9 @@ cp -R skill/deliberacion-critica ~/.zcode/skills/
 
 Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El SKILL.md **es el protocolo completo** (idéntico al prompt en su bloque operativo), y `references/` solo lleva el fallback lineal para entornos sin subagentes. Reinicia la app tras copiarla.
 
-## ⚠️ Límites honestos
+## Límites
 
-- Los casos son deliberaciones ilustrativas sobre promotores ficticios; los datos citados eran reales pero **caducan** — re-verifica antes de decidir.
-- El sistema **estructura decisiones y prepara las preguntas**; no sustituye a profesionales acreditados: dictámenes legales, consejo médico, auditorías y contratos requieren humanos con licencia para firmarlos.
+El sistema **estructura decisiones y prepara las preguntas**; no sustituye a profesionales acreditados: dictámenes legales, consejo médico, auditorías y contratos requieren humanos con licencia para firmarlos.
 
 ## Historial
 
