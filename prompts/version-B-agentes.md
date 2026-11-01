@@ -1,11 +1,11 @@
-# PROMPT MAESTRO v2.5 — VERSIÓN B: IA CON SUBAGENTES REALES
+# PROMPT MAESTRO — VERSIÓN B: IA CON SUBAGENTES REALES
 ### Para: entornos agénticos con herramienta nativa de agentes y contextos separados (ZCode, Claude Code, agentes de Gemini, etc.). Para IA de chat lineal sin subagentes, usa la VERSIÓN A.
 
-Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md). Gemelo operativo para agentes: [../skill/deliberacion-critica/SKILL.md](../skill/deliberacion-critica/SKILL.md) — cualquier cambio al protocolo se aplica a AMBOS.
+Versión para agentes (skill): [../skill/deliberacion-critica/SKILL.md](../skill/deliberacion-critica/SKILL.md) — el mismo protocolo; cualquier cambio se aplica a los dos.
 
 ---
 
-## CÓMO USAR ESTE PROMPT (v2.5 — arranque conversacional)
+## CÓMO USAR ESTE PROMPT (arranque conversacional)
 
 Hay dos formas de arrancar:
 
@@ -32,7 +32,7 @@ Analizaré el siguiente problema coordinando una deliberación crítica con suba
 **IDIOMA**: {IDIOMA}
 **LÍMITES**: {LIMITES}
 
-Si alguna variable llega sin rellenar, ejecuta el ARRANQUE de v2.5 (entrevista en un solo mensaje: lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima y fecha límite) antes de instanciar subagentes. Prohibido rellenar variables vacías por cuenta propia.
+Si alguna variable llega sin rellenar, ejecuta el ARRANQUE (entrevista en un solo mensaje: lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima y fecha límite) antes de instanciar subagentes. Prohibido rellenar variables vacías por cuenta propia.
 
 ### Rol del Agente Principal (Orquestador Central y Taquígrafo)
 

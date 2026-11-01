@@ -1,11 +1,9 @@
-# PROMPT MAESTRO v2.5 — VERSIÓN A: IA DE CHAT NORMAL (conversación lineal)
+# PROMPT MAESTRO — VERSIÓN A: IA DE CHAT NORMAL (conversación lineal)
 ### Para: ChatGPT, Gemini, Claude, DeepSeek, etc. en modo chat estándar, SIN subagentes reales. Para entornos con subagentes de verdad, usa la VERSIÓN B.
-
-Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md).
 
 ---
 
-## CÓMO USAR ESTE PROMPT (v2.5 — arranque conversacional)
+## CÓMO USAR ESTE PROMPT (arranque conversacional)
 
 Hay dos formas de arrancar:
 
@@ -32,7 +30,7 @@ Analizaré el siguiente problema coordinando una deliberación crítica entre 4 
 **IDIOMA**: {IDIOMA}
 **LÍMITES**: {LIMITES}
 
-Si alguna variable llega sin rellenar, ejecuta el ARRANQUE de v2.5 (entrevista en un solo mensaje: lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima y fecha límite) antes de deliberar. Prohibido rellenar variables vacías por cuenta propia.
+Si alguna variable llega sin rellenar, ejecuta el ARRANQUE (entrevista en un solo mensaje: lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima y fecha límite) antes de deliberar. Prohibido rellenar variables vacías por cuenta propia.
 
 ### Regla de oro anti-colapso (aplica siempre)
 

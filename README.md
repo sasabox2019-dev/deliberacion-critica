@@ -2,7 +2,7 @@
 
 **El prompt maestro que convierte cualquier decisión importante en un comité de cuatro agentes que diseñan, destruyen, padecen y desmantelan tu idea — antes de que gastes un euro.**
 
-Funciona como prompt copiable (dos versiones) o como skill instalable. Probado en tres deliberaciones reales completas, dos plataformas y un duelo de motores cruzado.
+Funciona como prompt copiable (dos versiones) o como skill instalable. Probado en tres deliberaciones reales completas y validado en dos plataformas (chat lineal y agentes).
 
 ---
 
@@ -54,9 +54,9 @@ El orquestador solo reenvía mensajes (el cartero no opina) y compila al final.
 | Verificación | Declarativa (sin búsqueda → todo [ESTIMACIÓN]) | Arquitectónica (el subagente ejecuta la búsqueda en su contexto) |
 | Úsala para | Refinar ideas rápido, móvil, decisiones menores | Riesgo real: dinero, contratos, decisiones difíciles de deshacer |
 
-👉 **[prompts/version-A-chat.md](prompts/version-A-chat.md)** · **[prompts/version-B-agentes.md](prompts/version-B-agentes.md)** — cópialos, rellena 4 variables (o pégalo vacío: v2.5 te entrevista), y arranca.
+👉 **[prompts/version-A-chat.md](prompts/version-A-chat.md)** · **[prompts/version-B-agentes.md](prompts/version-B-agentes.md)** — cópialos, rellena 4 variables (o pégalo vacío: te entrevista), y arranca.
 
-## El arranque v2.5 (entrevista en un mensaje)
+## El arranque (entrevista en un mensaje)
 
 Pega el prompt vacío y el sistema te pregunta **solo lo que falte, todo junto**: el problema con sus números, los límites no negociables, cuánto puedes permitirte perder si sale mal y si hay fecha límite. El modo (LIGERO / COMPLETO / PROFUNDO) **no se te pregunta: se te recomienda** según el riesgo. Confirmación en 5 líneas, escribes «ARRANCA», y empieza el debate.
 
@@ -74,7 +74,7 @@ Cada riesgo catastrófico encontrado en el debate se convierte en una puerta ver
 |---|---|---|
 | [Bar autónomo de Madrid](casos/01-bar-autoservicio-madrid.md) | El concepto nocturno era ilegal (alcohol en autoservicio) y la biometría, inviable (RGPD) → renace como cafetería diurna con 12 gates | El comité mata la idea central si hace falta y el negocio sobrevive transformado |
 | [Tienda de Yécora (270 hab.)](casos/02-tienda-yecora.md) | «Un súper con nóminas no cierra aquí» → piloto de medición ≤9.000 € con stop-loss y salidas escritas | La honestidad numérica vale más que la optimista; piloto que sabe morir |
-| [Guardería con cámaras + duelo de motores](casos/03-guarderia-duelo-motores.md) | El directo para padres muere por mecanismo (art. 22 LOPDGDD); el proyecto sobrevive; A y B convergen en terminal por caminos distintos | Validación cruzada de la arquitectura en chat lineal y agentes |
+| [Guardería con cámaras (Vitoria-Gasteiz)](casos/03-guarderia-camaras-vitoria.md) | El directo para padres muere por mecanismo (art. 22 LOPDGDD); el proyecto sobrevive; ambas plataformas convergen en el mismo terminal por caminos distintos | Validación cruzada de la arquitectura en chat lineal y agentes |
 
 ## Instalar la skill
 
@@ -88,7 +88,7 @@ cp -R skill/deliberacion-critica ~/.agents/skills/
 cp -R skill/deliberacion-critica ~/.zcode/skills/
 ```
 
-Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El SKILL.md **es el protocolo v2.5 completo** (idéntico al prompt en su bloque operativo), y `references/` solo lleva el fallback lineal para entornos sin subagentes. Reinicia la app tras copiarla.
+Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El SKILL.md **es el protocolo completo** (idéntico al prompt en su bloque operativo), y `references/` solo lleva el fallback lineal para entornos sin subagentes. Reinicia la app tras copiarla.
 
 ## ⚠️ Límites honestos
 
@@ -97,4 +97,4 @@ Se activa con «delibera esto», «convoca el comité», «somételo a deliberac
 
 ## Historial
 
-El sistema evolucionó por fallos de campo, no por teoría: [CHANGELOG.md](CHANGELOG.md) documenta qué se rompió, qué se parcheó y los principios destilados de cada caso. Licencia MIT — úsalo, remézclalo y mejora el comité.
+Los principios de diseño, destilados de deliberaciones reales, están en [CHANGELOG.md](CHANGELOG.md). Licencia MIT — úsalo, remézclalo y mejora el comité.

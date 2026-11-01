@@ -1,13 +1,13 @@
-# RESPUESTA FINAL INTEGRAL — CARRERA B (subagentes reales, protocolo v2.2)
-## Guardería con cámaras de acceso para padres, Vitoria-Gasteiz — y DIFF del duelo A vs B
+# RESPUESTA FINAL INTEGRAL — EJECUCIÓN CON SUBAGENTES REALES
+## Guardería con cámaras de acceso para padres, Vitoria-Gasteiz — con comparativa entre dos plataformas
 
-> Expediente compilado por el Maestro tras la deliberación de 4 subagentes en contextos separados (Proponente, Abogado del Diablo, Educadora Escéptica como Parte Afectada, Experto en videovigilancia RGPD/AEPD + laboral), modo COMPLETO, con laudo arbitral del protocolo de Enrocamiento. Veredictos: los tres críticos APROBADO CON CONDICIONES. Incluye el diff contra la carrera A (chat lineal, Gemini) sobre el mismo problema.
+> Expediente compilado por el Maestro tras la deliberación de 4 subagentes en contextos separados (Proponente, Abogado del Diablo, Educadora Escéptica como Parte Afectada, Experto en videovigilancia RGPD/AEPD + laboral), modo COMPLETO, con laudo arbitral del protocolo de Enrocamiento. Veredictos: los tres críticos APROBADO CON CONDICIONES. Incluye la comparativa contra la ejecución en chat lineal (un segundo motor de IA) sobre el mismo problema.
 
 ---
 
 ## 1. Veredicto ejecutivo
 
-La idea original —cámaras en aulas con **directo y grabación para padres** como diferenciador— **no puede existir**: muere por dos mecanismos independientes (desplazamiento de finalidad del art. 22 LOPDGDD [VERIFICADO: BOE, texto consolidado, 31/10/2026] y la aritmética de la adaptación: 15-18 incorporaciones/año × 2 semanas = 30 de las 37 semanas del curso con directo — "no era piloto, era temporada completa"). Pero a diferencia de la carrera A, que amputó todo el nodo, **la carrera B conserva más valor por vía legal** y descubre una trampa financiera que la carrera A no vio.
+La idea original —cámaras en aulas con **directo y grabación para padres** como diferenciador— **no puede existir**: muere por dos mecanismos independientes (desplazamiento de finalidad del art. 22 LOPDGDD [VERIFICADO: BOE, texto consolidado, 31/10/2026] y la aritmética de la adaptación: 15-18 incorporaciones/año × 2 semanas = 30 de las 37 semanas del curso con directo — "no era piloto, era temporada completa"). Pero a diferencia de la ejecución en chat lineal, que amputó todo el nodo, **la ejecución con subagentes conserva más valor por vía legal** y descubre una trampa financiera que la otra no vio.
 
 **El diseño que sobrevive:** guardería a 440 €/mes todo incluido (antes 390) con cámaras **exclusivamente de seguridad** en aulas de juego/comida, accesos y patio (nunca aseo, pañales ni siesta), **acceso de padres solo por incidente** (lesión, sustracción, denuncia: auditado, difuminado, entrega a autoridad en 72 h), retención de 7 días con borrado certificado, más un **producto de comunicación consentido** (informe textual diario + foto ocasional ≥3/semana del propio hijo, jamás derivada del CCTV), con 0,5 FTE contractual y plus de 100 € consolidable para la plantilla, firma colectiva condicional post-dictamen con cláusula de disenso-interruptor, y **apertura condicionada a seis gates (G0–G5)** que incluyen la verificación primaria del art. 89 bis LOPDGDD y un GO/NO-GO a ≥38 reservas pagadas.
 
@@ -54,7 +54,7 @@ Fijos 16.000 €/mes: aula 9.600 · local/suministros 1.900 · vídeo+app 500 ·
 ## 6. Riesgos residuales aceptados y Sacrificios explícitos
 
 - **Sacrificio explícito (laudo 5-bis):** los padres pierden la imagen diaria del hijo; se compensa con conexión textual diaria + ≥3 fotos/semana. Reversible solo por cambio normativo o doctrina AEPD que admita frecuencia diaria. Pre-declarado: si abril exigiera "foto diaria o nada", gana legalidad → el nodo queda RECHAZADO para siempre; la respuesta es rediseño comercial, nunca la imagen diaria.
-- **Riesgo residual:** la legalidad de las cámaras de seguridad en aulas depende de G0 (verificación del 89 bis/doctrina: la carrera A leyó esa doctrina como veto frontal; la carrera B la somete a prueba con muerte declarada si es adversa). Difuminado técnico sin auditar hasta G1. Todo el modelo económico es estimación hasta abril. Sin cobertura de sustitución si una titulada cae (4 personas, sin recambio local).
+- **Riesgo residual:** la legalidad de las cámaras de seguridad en aulas depende de G0 (verificación del 89 bis/doctrina: la ejecución en chat lineal leyó esa doctrina como veto frontal; la de subagentes la somete a prueba con muerte declarada si es adversa). Difuminado técnico sin auditar hasta G1. Todo el modelo económico es estimación hasta abril. Sin cobertura de sustitución si una titulada cae (4 personas, sin recambio local).
 - **Riesgo estructural asumido:** sin el paquete de comunicación, la base de demanda es 28 plazas (rojo profundo): el proyecto existe solo si el "cuidado documentado" mueve la base a 38.
 
 ## 7. Acta de la deliberación
@@ -74,29 +74,29 @@ Nada de esto sustituye a: (1) dictamen jurídico externo sobre el art. 89 bis/do
 
 ---
 
-# ANEXO — DIFF DEL DUELO: carrera A (chat lineal, Gemini) vs carrera B (subagentes reales)
+# ANEXO — COMPARATIVA ENTRE PLATAFORMAS: chat lineal vs subagentes
 
 ## Convergencias (la arquitectura queda validada)
 
-1. **El nodo "cámaras con acceso para padres" muere en ambas carreras** — por mecanismos distintos pero de la misma familia legal (desplazamiento de finalidad del art. 22 LOPDGDD; en A vía doctrina AEPD declarada frontal, en B vía verificación BOE + laudo).
+1. **El nodo "cámaras con acceso para padres" muere en ambas ejecuciones** — por mecanismos distintos pero de la misma familia legal (desplazamiento de finalidad del art. 22 LOPDGDD; en la lineal vía doctrina AEPD declarada frontal, en la de subagentes vía verificación BOE + laudo).
 2. **El proyecto sobrevive transformado** en ambas: A lo transforma a formato (d) sin cámaras en aulas + CCTV perimetral; B conserva cámaras de seguridad en aulas de juego con acceso por incidente + producto de comunicación consentido.
 3. **Ambas terminan con dictamen externo antes de gastar/comunicar** y con la ocupación como gate comercial de abril-junio.
 4. **Ambas usaron el Protocolo de Enrocamiento** y documentaron el sacrificio de los padres (que no estaban en la sala): A emitió laudo jerárquico → amputación del nodo; B detectó que el conflicto era posicional (intereses compatibles) → mecanismo + gate empírico. Las dos ramas del protocolo, ejercitadas.
-5. **Veredictos idénticos en clase:** los tres críticos de cada carrera, APROBADO CON CONDICIONES.
+5. **Veredictos idénticos en clase:** los tres críticos en cada plataforma, APROBADO CON CONDICIONES.
 
 ## Divergencias (donde los motores se distinguen)
 
-| Dimensión | Carrera A (lineal) | Carrera B (agentes) |
+| Dimensión | Chat lineal | Subagentes |
 |---|---|---|
 | **Terminal del nodo cámaras** | Amputación total (CCTV solo exterior/pasillo): asume la doctrina AEPD como veto frontal | Conserva aulas de juego con acceso por incidente, **condicionado a G0** (verificación primaria; régimen adverso = muerte). No desacuerda con A: convierte su premisa en test |
 | **Mecanismos descubiertos** | 6,7 h/día de edición manual (colapso operativo de los clips) | 30-de-37 semanas (piloto permanente); 23 céntimos/hora; endogeneidad financiera; ventana roja 34-38 |
 | **Profundidad financiera** | Stress-test −33% (30 alumnos, −780 €/mes, 18 meses de runway) | Recalcula cuota 390→440, fija el verde en ≥38 y **descubre la ventana roja 34-38** (abrir en rojo sin disparador de salida): una trampa que los gates de A no veían |
 | **Verificación** | "[BÚSQUEDA WEB ACTIVA]" declarativa; sin fuentes recuperables en el acta; sello contaminado ([VERIFICADO: Experto-Bloque 1]) | Búsquedas ejecutadas de verdad: art. 22 LOPDGDD verificado en BOE con URL y fecha; art. 89 bis marcado [A VERIFICAR] por cuota — **se negó a inventarlo** |
-| **Fase 0** | Parte Afectada = educadoras (padres ausentes, mitigado por el Proponente) | Igual elección, pero con los padres representados expresamente por el Proponente y su pérdida documentada en Sacrificios (la mitigación archivada en v2.2, aplicada) |
+| **Fase 0** | Parte Afectada = educadoras (padres ausentes, mitigado por el Proponente) | Igual elección, pero con los padres representados expresamente por el Proponente y su pérdida documentada en Sacrificios (mitigación aplicada) |
 | **v1 del Proponente** | Pre-atornillado (arrancó en opción b con zonas ciegas) | Con instrucción anti-pre-hedging: arrancó en C ambicioso con piloto — cedió solo cuando el mecanismo lo mató |
 
-## Veredicto del duelo
+## Veredicto de la validación cruzada
 
-**La arquitectura está validada en ambas plataformas**: mismo problema, misma clase de terminal, protocolo de Enrocamiento ejercitado en sus dos ramas, sacrificios documentados. La carrera B fue superior en **verificación arquitectónica** (fuentes reales vs declarativas), **profundidad financiera** (encontró y cerró la ventana roja) y **conservación de valor** (la frontera de origen salvó la mitad del diferenciador por vía legal). La carrera A fue más **conservadora y rápida**: ante la misma doctrina no verificada, amputó en vez de testar — una postura de gobernanza igualmente legítima.
+**La arquitectura está validada en ambas plataformas**: mismo problema, misma clase de terminal, protocolo de Enrocamiento ejercitado en sus dos ramas, sacrificios documentados. La ejecución con subagentes fue superior en **verificación arquitectónica** (fuentes reales vs declarativas), **profundidad financiera** (encontró y cerró la ventana roja) y **conservación de valor** (la frontera de origen salvó la mitad del diferenciador por vía legal). La ejecución en chat lineal fue más **conservadora y rápida**: ante la misma doctrina no verificada, amputó en vez de testar — una postura de gobernanza igualmente legítima.
 
-La síntesis final entre ambos expedientes: **no discrepan, se componen**. La carrera A afirma "la doctrina probablemente veta las aulas"; la carrera B responde "entonces verifícalo primero: G0 con muerte declarada si es adverso". El expediente definitivo para el promotor real es el de B con el G0 como árbitro entre ambos terminales.
+La síntesis final entre ambos expedientes: **no discrepan, se componen**. La ejecución en chat lineal afirma "la doctrina probablemente veta las aulas"; la de subagentes responde "entonces verifícalo primero: G0 con muerte declarada si es adverso". El expediente definitivo para el promotor real es el de subagentes con el G0 como árbitro entre ambos terminales.

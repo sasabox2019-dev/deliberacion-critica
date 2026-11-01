@@ -1,67 +1,14 @@
 # CHANGELOG
 
-Todos los cambios notables del PROMPT MAESTRO. Cada versión nace de un fallo observado en deliberaciones reales, no de teoría.
+## [1.0] — Primera versión pública
 
-## [2.5.1] — Unificación de fuente de verdad (skill = protocolo)
+Primera versión pública del sistema: protocolo de deliberación crítica multiagente en dos formatos (prompt pastable para chat lineal y para entornos con subagentes), skill instalable (`skill/deliberacion-critica/`) y tres casos de estudio completos en `casos/`.
 
-**Motivado por:** la auditoría de equivalencia demostró que ninguna de las tres vías de uso (prompt pastable, skill instalada, referencia suelta) contenía el protocolo v2.5 íntegro: el SKILL.md resumía los system prompts y la plantilla del entregable, el arranque quedó bifurcado y con pérdidas (el matiz de «un límite solo se cuestiona si hace inviable el proyecto entero» había desaparecido de la skill), la referencia B dependía de una lectura externa sin garantías, y la copia instalada estaba desincronizada del repo.
-
-- **SKILL.md pasa a SER el protocolo completo v2.5 verbatim** (arranque con las 7 reglas, rol del orquestador, Fases 0–3 con los system prompts exactos, 5-bis y plantilla de 8 secciones). El cuerpo de la skill se carga íntegro al dispararse, así que desaparece el riesgo de «que el agente lea la referencia»: no queda nada externo que leer en el camino principal.
-- Eliminada `references/protocolo-B-agentes.md` (ya no tiene razón de ser). El repo queda con dos gemelos operativos: `prompts/version-B-agentes.md` (humanos) ↔ `SKILL.md` (agentes), con línea de emparejamiento anti-drift en ambos.
-- `references/protocolo-A-chat.md` sobrevive como único fallback (entornos sin subagentes).
-- Adición intencional y declarada de la skill frente al prompt: el guard «Cuándo NO montar el comité» (afecta al disparo, no a la deliberación).
-- Verificación de equivalencia introducida: diff estático del bloque operativo (idéntico byte a byte entre prompt y skill) + checklist de 12 elementos críticos.
-
-## [2.5] — Arranque conversacional
-
-**Motivado por:** la fricción de rellenar plantilla hacía que la gente pegara el prompt incompleto y el comité deliberara con datos fantasma.
-
-- Arranque conversacional: el prompt se puede pegar vacío y el orquestador entrevista en UN solo mensaje, preguntando solo lo que falte.
-- El MODO ya no se pregunta a ciegas: el orquestador lo recomienda según riesgo e irreversibilidad; el usuario lo cambia con una palabra.
-- El IDIOMA se deduce del mensaje; solo se pregunta ante ambigüedad real.
-- Dos preguntas nuevas de alto valor: pérdida máxima tolerable (alimenta el stop-loss) y fecha límite para decidir.
-- Prohibido inventar variables vacías: quedan como [ESTIMACIÓN].
-
-## [2.2] — Protocolo de Enrocamiento
-
-**Motivado por:** el escenario de bloqueo con posturas críticas incompatibles — un livelock de incentivos donde los agentes hacían exactamente lo que se les ordenaba (no ceder) y el debate no convergía.
-
-- **Protocolo de Enrocamiento (regla 5-bis)**: tras una exigencia PARCIAL/RECHAZADA dos veces, el Proponente puede declarar TRADE-OFF IRREDUCTIBLE con motivación → intervención de intereses (posiciones → intereses, estilo Fisher-Ury) → si son compatibles, mecanismo; si hay asimetría, laudo jerárquico del árbitro (CATASTRÓFICO existencial > fricción matadora > ALTO > MEDIO) con sacrificio mínimo cuantificado; si hay simetría real, gate empírico (experimento del mundo real que decide por datos).
-- **Muerte del nodo como terminal válido**: un segundo enrocamiento sobre el mismo nodo = RECHAZADO de ese nodo con descope o división del proyecto. La reconciliación cosmética queda prohibida.
-- **Parche del alcance del sello [VERIFICADO]** (post-duelo de motores): el sello solo apunta a fuente externa con fecha buscada por el agente que firma; jamás a argumentos internos del debate. Toda cifra sin fuente es [ESTIMACIÓN]. Detectado en producción tres veces.
-- **Parche anti-anclaje (Versión A)**: la relectura de los propios mensajes sirve para continuidad, no para reafirmar posición — mata el punto fijo del enrocamiento en ventanas lineales.
-- **Enmienda anti-pre-hedging**: el v1 del Proponente es el extremo honesto del objetivo original; retirar opciones antes del ataque les roba el trabajo a los críticos y comprime el debate. Detectado en las dos carreras del duelo.
-
-## [2.1] — División en dos versiones
-
-**Motivado por:** los límites físicos de un chat lineal (colapso de salida, fusión de personalidades, amabilidad de la IA).
-
-- **Versión A (chat)**: ejecución por bloques con «CONTINÚA», cabeceras de rol, regla «los roles nunca coinciden del todo», topes de palabras por intervención, LIGERO por defecto.
-- **Versión B (agentes)**: Abogado del Diablo estrictamente destructivo (requisitos verificables, nunca soluciones de diseño), verificación arquitectónica ([VERIFICADO] exige ejecutar la búsqueda en el propio contexto), orquestador sin contenido técnico («el juez no puede jugar»), advertencia del sesgo residual de modelo único con mitigación (modelos distintos por crítico si la plataforma lo permite).
-
-## [2.0] — Universalización
-
-**Motivado por:** dos deliberaciones reales (bar autónomo de Madrid, tienda de pueblo) que destaparon cinco carencias del original.
-
-- Roles generalizados: Ingeniero → **Proponente** (cualquier dominio); Cliente → **Parte Afectada** (quien vive las consecuencias).
-- **Criterio de terminación**: veredicto terminal con formato obligatorio (A: exigencia por exigencia; B: ¿queda CATASTRÓFICO?; C: APROBADO/CON CONDICIONES/RECHAZADO).
-- **Taxonomía de severidad común** (CATASTRÓFICO/ALTO/MEDIO/BAJO) + mecanismo de fallo obligatorio en cada ataque.
-- **Regla de verificación**: [VERIFICADO: fuente] vs [ESTIMACIÓN]; prohibido disfrazar estimaciones de datos.
-- **Protocolo de contradicciones** entre críticos («contradicción viva» + mecanismo reconciliador).
-- **Entregable plantillado** de 8 secciones, con gates de decisión y frontera profesional.
-- **Modos** LIGERO / COMPLETO / PROFUNDO.
-
-## [1.0] — Prompt original
-
-Comité de 4 roles (Ingeniero, Abogado del Diablo, Cliente Escéptico, Experto Especialista), mínimo 3 intervenciones cruzadas por agente, orquestador taquígrafo prohibido de resolver directamente, Maestro compilador al cierre. Estrenado y estresado con el caso del bar autónomo de Madrid.
-
----
-
-## Principios de diseño (destilados de los casos)
+## Principios de diseño (destilados de deliberaciones reales)
 
 - **Mecanismo, no adjetivos** — una crítica vale solo si explica cómo se pierde el dinero o qué ley se rompe; jamás «es arriesgado».
 - **[VERIFICADO] vs [ESTIMACIÓN]** — el sello exige búsqueda real ejecutada por quien firma y fuente externa fechada; jamás valida un argumento interno del debate. La fuente inventada es peor que la estimación declarada.
 - **El cartero no opina** — el orquestador reenvía, no delibera; el juez no puede jugar.
 - **V1 sin pre-recortes** — el diseñador defiende el extremo honesto de la idea; recortar es trabajo de los críticos.
 - **Los trade-offs irreductibles tienen salida** — posturas → intereses → mecanismo, laudo jerárquico o gate empírico; si un nodo es estructuralmente incompatible, se amputa con descope en vez de fingir reconciliación.
-- **Una señal es ruido, dos son patrón** — los parches salen de fallos repetidos en carreras reales; las sospechas sin confirmar se archivan sin tocar nada.
+- **Una señal es ruido, dos son patrón** — los parches salen de fallos repetidos en deliberaciones reales; las sospechas sin confirmar se archivan sin tocar nada.

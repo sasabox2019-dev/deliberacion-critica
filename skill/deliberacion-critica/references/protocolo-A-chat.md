@@ -1,6 +1,6 @@
 # Protocolo de Deliberación Crítica — Versión A (chat lineal, sin subagentes)
 
-> Fallback para entornos SIN agentes con contextos separados: un solo cerebro interpreta los 4 roles por bloques. El ARRANQUE (entrevista v2.5) está definido en el SKILL.md; este documento es el procedimiento lineal completo. Versión pastable para humanos: `prompts/version-A-chat.md` del repo.
+> Fallback para entornos SIN agentes con contextos separados: un solo cerebro interpreta los 4 roles por bloques. El ARRANQUE (entrevista de inicio) está definido en el SKILL.md; este documento es el procedimiento lineal completo. Versión pastable para humanos: `prompts/version-A-chat.md` del repo.
 
 ## Regla de oro anti-colapso (aplica siempre)
 

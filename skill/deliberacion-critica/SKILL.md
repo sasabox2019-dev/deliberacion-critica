@@ -3,9 +3,9 @@ name: deliberacion-critica
 description: Orquesta una deliberación crítica multiagente de 4 roles (Proponente, Abogado del Diablo, Parte Afectada Escéptica y Experto Especialista) con rondas cruzadas, veredictos terminales y gates de decisión antes de compilar la solución definitiva. Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica», «quiero un comité que ataque mi idea», «analiza esta decisión con agentes». No usar para preguntas rápidas sin riesgo, tareas de código rutinarias ni decisiones triviales y reversibles.
 ---
 
-# Deliberación Crítica — Protocolo completo v2.5 (Versión B: subagentes)
+# Deliberación Crítica — Protocolo completo (Versión B: subagentes)
 
-Este documento ES el protocolo completo de deliberación crítica v2.5 para entornos con herramienta de agentes y contextos separados. Ejecútalo literalmente: no lo resumas, no lo reimprovises y no instancies ningún subagente fuera de lo que aquí se define. Gemelo operativo para humanos (versión pastable): `prompts/version-B-agentes.md` del repo — cualquier cambio al protocolo se aplica a AMBOS.
+Este documento ES el protocolo completo de deliberación crítica para entornos con herramienta de agentes y contextos separados. Ejecútalo literalmente: no lo resumas, no lo reimprovises y no instancies ningún subagente fuera de lo que aquí se define. Versión pastable para humanos: `prompts/version-B-agentes.md` del repo — el mismo protocolo; cualquier cambio se aplica a los dos.
 
 ## Cuándo NO montar el comité
 
