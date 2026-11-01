@@ -21,3 +21,6 @@ build/
 # Editorial (borradores que no se publican)
 *.bak
 *~
+
+# Estado local de plugins (no publicar)
+.omc/
