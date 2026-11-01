@@ -2,6 +2,16 @@
 
 Todos los cambios notables del PROMPT MAESTRO. Cada versión nace de un fallo observado en deliberaciones reales, no de teoría.
 
+## [2.5.1] — Unificación de fuente de verdad (skill = protocolo)
+
+**Motivado por:** la auditoría de equivalencia demostró que ninguna de las tres vías de uso (prompt pastable, skill instalada, referencia suelta) contenía el protocolo v2.5 íntegro: el SKILL.md resumía los system prompts y la plantilla del entregable, el arranque quedó bifurcado y con pérdidas (el matiz de «un límite solo se cuestiona si hace inviable el proyecto entero» había desaparecido de la skill), la referencia B dependía de una lectura externa sin garantías, y la copia instalada estaba desincronizada del repo.
+
+- **SKILL.md pasa a SER el protocolo completo v2.5 verbatim** (arranque con las 7 reglas, rol del orquestador, Fases 0–3 con los system prompts exactos, 5-bis y plantilla de 8 secciones). El cuerpo de la skill se carga íntegro al dispararse, así que desaparece el riesgo de «que el agente lea la referencia»: no queda nada externo que leer en el camino principal.
+- Eliminada `references/protocolo-B-agentes.md` (ya no tiene razón de ser). El repo queda con dos gemelos operativos: `prompts/version-B-agentes.md` (humanos) ↔ `SKILL.md` (agentes), con línea de emparejamiento anti-drift en ambos.
+- `references/protocolo-A-chat.md` sobrevive como único fallback (entornos sin subagentes).
+- Adición intencional y declarada de la skill frente al prompt: el guard «Cuándo NO montar el comité» (afecta al disparo, no a la deliberación).
+- Verificación de equivalencia introducida: diff estático del bloque operativo (idéntico byte a byte entre prompt y skill) + checklist de 12 elementos críticos.
+
 ## [2.5] — Arranque conversacional
 
 **Motivado por:** la fricción de rellenar plantilla hacía que la gente pegara el prompt incompleto y el comité deliberara con datos fantasma.

@@ -88,7 +88,7 @@ cp -R skill/deliberacion-critica ~/.agents/skills/
 cp -R skill/deliberacion-critica ~/.zcode/skills/
 ```
 
-Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El arranque (entrevista v2.5) vive en el propio SKILL.md y `references/` lleva el protocolo puro. Reinicia la app tras copiarla.
+Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El SKILL.md **es el protocolo v2.5 completo** (idéntico al prompt en su bloque operativo), y `references/` solo lleva el fallback lineal para entornos sin subagentes. Reinicia la app tras copiarla.
 
 ## ⚠️ Límites honestos
 

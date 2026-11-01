@@ -1,7 +1,7 @@
 # PROMPT MAESTRO v2.5 — VERSIÓN B: IA CON SUBAGENTES REALES
 ### Para: entornos agénticos con herramienta nativa de agentes y contextos separados (ZCode, Claude Code, agentes de Gemini, etc.). Para IA de chat lineal sin subagentes, usa la VERSIÓN A.
 
-Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md).
+Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md). Gemelo operativo para agentes: [../skill/deliberacion-critica/SKILL.md](../skill/deliberacion-critica/SKILL.md) — cualquier cambio al protocolo se aplica a AMBOS.
 
 ---
 
