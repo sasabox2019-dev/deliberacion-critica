@@ -44,3 +44,14 @@ Todos los cambios notables del PROMPT MAESTRO. Cada versión nace de un fallo ob
 ## [1.0] — Prompt original
 
 Comité de 4 roles (Ingeniero, Abogado del Diablo, Cliente Escéptico, Experto Especialista), mínimo 3 intervenciones cruzadas por agente, orquestador taquígrafo prohibido de resolver directamente, Maestro compilador al cierre. Estrenado y estresado con el caso del bar autónomo de Madrid.
+
+---
+
+## Principios de diseño (destilados de los casos)
+
+- **Mecanismo, no adjetivos** — una crítica vale solo si explica cómo se pierde el dinero o qué ley se rompe; jamás «es arriesgado».
+- **[VERIFICADO] vs [ESTIMACIÓN]** — el sello exige búsqueda real ejecutada por quien firma y fuente externa fechada; jamás valida un argumento interno del debate. La fuente inventada es peor que la estimación declarada.
+- **El cartero no opina** — el orquestador reenvía, no delibera; el juez no puede jugar.
+- **V1 sin pre-recortes** — el diseñador defiende el extremo honesto de la idea; recortar es trabajo de los críticos.
+- **Los trade-offs irreductibles tienen salida** — posturas → intereses → mecanismo, laudo jerárquico o gate empírico; si un nodo es estructuralmente incompatible, se amputa con descope en vez de fingir reconciliación.
+- **Una señal es ruido, dos son patrón** — los parches salen de fallos repetidos en carreras reales; las sospechas sin confirmar se archivan sin tocar nada.

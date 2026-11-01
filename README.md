@@ -8,7 +8,7 @@ Funciona como prompt copiable (dos versiones) o como skill instalable. Probado e
 
 ## El problema que resuelve
 
-Cuando le pides a una IA que analice una idea, te la **aprueba**. Los modelos tienden a la convergencia prematura: la primera idea contamina todo lo demás y la complacencia hace el resto. Este sistema fuerza lo contrario — una **sala de deliberación** donde tu idea tiene que sobrevivir a un ataque organizado antes de convertirse en plan.
+Pídele a una IA que analice una idea y te la **aprobará**. Aquí tu idea tiene que sobrevivir a un comité de cuatro agentes antes de convertirse en plan.
 
 ```
                     ┌──────────────────┐
@@ -88,23 +88,13 @@ cp -R skill/deliberacion-critica ~/.agents/skills/
 cp -R skill/deliberacion-critica ~/.zcode/skills/
 ```
 
-Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… y contiene el protocolo completo dentro de `references/`. Reinicia la app tras copiarla.
-
-## Principios aprendidos en campo
-
-- **Mecanismo, no adjetivos**: una crítica vale solo si explica cómo se pierde el dinero o qué ley se rompe.
-- **[VERIFICADO] vs [ESTIMACIÓN]**: el sello exige búsqueda real y fuente externa fechada; jamás valida un argumento interno del debate. La fuente inventada es peor que la estimación declarada.
-- **El cartero no opina**: el orquestador reenvía, no delibera. El juez no puede jugar.
-- **V1 sin pre-recortes**: el diseñador defiende el extremo honesto de la idea; recortar es trabajo de los críticos.
-- **Los trade-offs irreductibles tienen salida**: posturas → intereses → mecanismo, laudo jerárquico o gate empírico; y si un nodo es estructuralmente incompatible, se amputa con descope en vez de fingir reconciliación.
-- **Una señal es ruido, dos son patrón**: los parches salen de fallos repetidos en carreras reales; las sospechas sin confirmar se archivan sin tocar nada.
+Se activa con «delibera esto», «convoca el comité», «somételo a deliberación crítica»… El arranque (entrevista v2.5) vive en el propio SKILL.md y `references/` lleva el protocolo puro. Reinicia la app tras copiarla.
 
 ## ⚠️ Límites honestos
 
-- Los casos son deliberaciones ilustrativas sobre promotores ficticios; los datos normativos, demográficos y económicos citados son reales y verificados en su momento, pero **caducan** — re-verifica antes de decidir.
-- Este sistema **estructura decisiones y prepara las preguntas**; no sustituye a profesionales acreditados: dictámenes legales, consejo médico, auditorías y contratos requieren humanos con licencia para firmarlos.
-- Cada deliberación completa consume tokens significativos: usa LIGERO para lo pequeño y guarda COMPLETO/PROFUNDO para lo que de verdad importa.
+- Los casos son deliberaciones ilustrativas sobre promotores ficticios; los datos citados eran reales pero **caducan** — re-verifica antes de decidir.
+- El sistema **estructura decisiones y prepara las preguntas**; no sustituye a profesionales acreditados: dictámenes legales, consejo médico, auditorías y contratos requieren humanos con licencia para firmarlos.
 
 ## Historial
 
-El sistema evolucionó por fallos de campo, no por teoría: [CHANGELOG.md](CHANGELOG.md) documenta qué se rompió y qué se parcheó en cada versión. Licencia MIT — úsalo, remézclalo y mejora el comité.
+El sistema evolucionó por fallos de campo, no por teoría: [CHANGELOG.md](CHANGELOG.md) documenta qué se rompió, qué se parcheó y los principios destilados de cada caso. Licencia MIT — úsalo, remézclalo y mejora el comité.

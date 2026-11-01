@@ -1,7 +1,7 @@
 # PROMPT MAESTRO v2.5 — VERSIÓN B: IA CON SUBAGENTES REALES
-### Para: entornos agénticos con herramienta nativa de agentes y contextos separados (ZCode, Claude Code, agentes de Gemini, etc.)
+### Para: entornos agénticos con herramienta nativa de agentes y contextos separados (ZCode, Claude Code, agentes de Gemini, etc.). Para IA de chat lineal sin subagentes, usa la VERSIÓN A.
 
-> v2.2 = v2 + mejoras v2.1 (Abogado del Diablo estrictamente destructivo, verificación con evidencia de búsqueda real dentro del subagente, taquigrafía procesal estricta del orquestador, advertencia del sesgo residual de modelo único) + **Protocolo de Enrocamiento** (desempate de trade-offs irreductibles: intervención de intereses → mecanismo, laudo jerárquico o gate empírico → muerte del nodo como último terminal) + enmienda post-duelo (v1 sin pre-hedging: el Proponente diseña el extremo honesto del objetivo original; retirar opciones es trabajo de los críticos). **v2.5: arranque conversacional** — entrevista adaptativa en UN solo mensaje (solo lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima aceptable y fecha límite) en lugar de exigir rellenar la plantilla. Para IA de chat lineal sin subagentes, usa la VERSIÓN A.
+Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md).
 
 ---
 

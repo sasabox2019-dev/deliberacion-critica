@@ -1,7 +1,7 @@
 # PROMPT MAESTRO v2.5 — VERSIÓN A: IA DE CHAT NORMAL (conversación lineal)
-### Para: ChatGPT, Gemini, Claude, DeepSeek, etc. en modo chat estándar, SIN subagentes reales
+### Para: ChatGPT, Gemini, Claude, DeepSeek, etc. en modo chat estándar, SIN subagentes reales. Para entornos con subagentes de verdad, usa la VERSIÓN B.
 
-> v2.2: añade el **Protocolo de Enrocamiento** (desempate de trade-offs irreductibles: intereses → laudo jerárquico o gate empírico → muerte del nodo como último terminal) y el parche anti-anclaje (la relectura de tus mensajes sirve para la continuidad, no para reafirmarte). Enmienda post-duelo: el v1 del Proponente debe ser el extremo honesto del objetivo original (sin pre-hedging; retirar opciones es trabajo de los críticos). **v2.5: arranque conversacional** — entrevista adaptativa en UN solo mensaje (solo lo que falte, modo recomendado en vez de preguntado, idioma deducido, pérdida máxima aceptable y fecha límite) en lugar de exigir rellenar la plantilla. Adaptación para el límite de una ventana lineal: un solo cerebro interpreta los 4 roles, con dispositivos anti-fusión, control de turnos con "CONTINÚA" y protección contra la falsa verificación. Para entornos con subagentes reales, usa la VERSIÓN B.
+Historial de versiones y motivaciones de cada regla: [CHANGELOG.md](../CHANGELOG.md).
 
 ---
 
